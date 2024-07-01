@@ -142,7 +142,7 @@
 
                 // Fonction pour obtenir le SHA du dernier commit
                 function getLatestCommitSha() {
-                    return fetch('https://api.github.com/repos/votre-nom-utilisateur/votre-projet/commits')
+                    return fetch('https://api.github.com/repos/flotix8/ClassWarfare/commits')
                         .then(response => response.json())
                         .then(data => data[0].sha)
                         .catch(error => {
