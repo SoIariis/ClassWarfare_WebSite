@@ -52,6 +52,22 @@ h2 {
   margin-bottom: 10px;
 }
 
+.discord-invite-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #5865F2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.discord-invite-btn:hover {
+  background-color: #4752C4;
+}
+
 .info-item strong {
   font-weight: bold;
   margin-right: 10px;
